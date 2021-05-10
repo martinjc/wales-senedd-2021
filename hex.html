@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="d3-hexjson.min.js"></script>
+    <title>Maps and D3</title>
+    <style>
+        html,
+        body {
+            margin: 0px;
+            padding: 0px;
+
+            height: 100%;
+            width: 100%;
+
+            background-color: #eeeeee;
+
+            position: relative;
+
+            font-family: "Open Sans", sans-serif;
+            color: #555;
+        }
+        #con_map {
+            width: 45vw;
+            float: left;
+        }
+        #reg_map {
+            width: 28vw;
+            float: left;
+        }
+        #info {
+            clear: both;
+            visibility: hidden;
+            padding: 30px;
+        }
+        #info.active {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <div id='con_map'></div>
+    <div id='reg_map'></div>
+    <div id="info"><h1>This is <span id="con_name"></span></h1></div>
+
+    <script>
+
+        let party_details = {
+            'Labour': { name: 'Labour', colour: '#DC241f' },
+            'Conservative': { name: 'Conservative', colour: '#0087DC' },
+            'Green': { name: 'Green Party', colour: '#6AB023' },
+            'Liberal Democrat': { name: 'Liberal Democrat', colour: '#FDBB30' },
+            'Plaid Cymru': { name: 'Plaid Cymru', colour: '#008142' },
+        };
+
+        let con_width = d3.select('#con_map').node().clientWidth;
+        let reg_width = d3.select('#reg_map').node().clientWidth;
+        
+        let height = 600;
+
+        let margin = {
+            top: 30,
+            bottom: 30,
+            left: 30,
+            right: 30
+        }
+
+        let con_svg = d3.select('#con_map').append('svg').attr("width",con_width).attr('height', height);
+        let reg_svg = d3.select('#reg_map').append('svg').attr("width",reg_width).attr('height', height);
+        
+        let projection = d3.geoMercator();
+        let path = d3.geoPath().projection(projection);
+        
+        let active = d3.select(null);
+
+        function reset(event, d) {
+            active.attr('opacity', '1.0');
+            active = d3.select(null);
+
+            d3.select('#info')
+                .classed('active', false);
+        }
+
+        function clicked(event, d) {
+            console.log(d);
+            if(active.node() === this) {
+                reset(event, d);
+            } else {
+                active.attr('opacity', '1.0')
+                active = d3.select(this);
+                active.attr('opacity', '0.2')
+                d3.select("#info")
+                        .classed("active", true);
+                if(d.nawc18nm) {
+                    d3.select('#con_name').text(d.nawc18nm);   
+                } else if(d.nawer18nm) {
+                    d3.select('#con_name').text(d.nawer18nm);
+                }
+                             
+            }
+        }
+
+ 
+
+        Promise.all([
+            d3.json('data/nawc_2018.hexjson'),
+            d3.json('data/nawer_2018.hexjson'),
+            d3.csv('data/constituency_results.csv'),
+            d3.csv('data/regional_results.csv')
+        ]).then(([con_hexes, reg_hexes, con_results, reg_results]) => {
+            
+            con_results = d3.group(con_results, (d) => d.constituency_id);
+            reg_results = d3.group(reg_results, (d) => d.region_id);
+
+            let get_constituency_fill = function(con_id) {
+                let constituency_result = con_results.get(con_id);
+                let winner = d3.greatest(constituency_result, a => +a.votes.replace(',', '') );
+                return party_details[winner.party].colour;
+            }
+
+            let get_region_block_fill = function(reg_id, block_number) {
+                let region_seats = [];
+                reg_results.get(reg_id).forEach(rr => {
+                    for(let i = 0; i < rr.seats; i++) {
+                        region_seats.push(rr.party);
+                    }
+                });
+                return party_details[region_seats[block_number]].colour;
+            }
+
+            con_hexes = d3.renderHexJSON(con_hexes, con_width-margin.left-margin.right, height-margin.top-margin.bottom);
+            console.log(con_hexes);
+            let con_hexmap = con_svg.selectAll('g')
+                .data(con_hexes)
+                .join((enter) => {
+                    enter.append('g')
+                        .attr('transform', (hex) => {
+                            return `translate(${hex.x+margin.left},${hex.y+margin.top})`;
+                        })
+                        .append('polygon')
+                        .attr('points', (hex) => hex.points)
+                        .attr('stroke', '#eee')
+                        .attr('fill', (hex) => get_constituency_fill(hex.key))
+                        .attr('stroke-width', 2)
+                        .attr('id', (hex) => hex.key)
+                        .attr('data-name', (hex) => hex.name)
+                        .on('click', clicked);
+                });
+
+            reg_hexes = d3.renderHexJSON(reg_hexes, reg_width-margin.left-margin.right, height-margin.top-margin.bottom);
+            console.log(reg_hexes);
+            let reg_hexmap = reg_svg.selectAll('g')
+                .data(reg_hexes)
+                .join((enter) => {
+                    enter.append('g')
+                        .attr('transform', (hex) => {
+                            return `translate(${hex.x+margin.left},${hex.y+margin.top})`;
+                        })
+                        .append('polygon')
+                        .attr('points', (hex) => hex.points)
+                        .attr('stroke', '#eee')
+                        .attr('fill', (hex) => {
+                            let [naw18cd, i] = hex.nawc18cd.split('_');
+                            return get_region_block_fill(naw18cd, i-1);
+                        })
+                        .attr('stroke-width', 2)
+                        .attr('id', (hex) => hex.key)
+                        .attr('data-name', (hex) => hex.name)
+                        .on('click', clicked);
+                });
+            });
+
+    </script>
+    
+</body>
+</html>

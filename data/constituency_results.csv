@@ -1,0 +1,309 @@
+constituency_id,constituency_name,party,name,votes,share,share change
+W09000022,Aberavon,Labour,David Rees,"10,505",47.4%,-3.3
+W09000022,Aberavon,Plaid Cymru,Victoria Griffiths,"4,760",21.5%,+1.5
+W09000022,Aberavon,Conservative,Liz Hill O'Shea,"2,947",13.3%,+6.9
+W09000022,Aberavon,Independent,Scott Jones,"1,357",6.1%,+6.1
+W09000022,Aberavon,Liberal Democrat,Helen Clarke,953,4.3%,-1.7
+W09000022,Aberavon,Abolish the Welsh Assembly Party,Sarah Allen,646,2.9%,+2.9
+W09000022,Aberavon,UK Independence Party,Timothy Jenkins,407,1.8%,-13.2
+W09000022,Aberavon,Gwlad,Ceri Paul Golding,386,1.7%,+1.7
+W09000022,Aberavon,Reform UK,Dennis Walter May,208,0.9%,+0.9
+W09000003,Aberconwy,Conservative,Janet Finch-Saunders,"9,815",41.7%,+7.0
+W09000003,Aberconwy,Plaid Cymru,Aaron Wynne,"6,479",27.5%,-3.8
+W09000003,Aberconwy,Labour,Dawn McGuinness,"5,971",25.4%,-2.0
+W09000003,Aberconwy,Liberal Democrat,Rhys Jones,735,3.1%,-0.4
+W09000003,Aberconwy,Reform UK,Rachel Bagshaw,320,1.4%,+1.4
+W09000003,Aberconwy,No More Lockdowns,Sharon Smith,223,0.9%,+0.9
+W09000007,Alyn & Deeside,Labour,Jack Sargeant,"12,622",48.8%,+3.1
+W09000007,Alyn & Deeside,Conservative,Abigail Mainon,"8,244",31.9%,+10.9
+W09000007,Alyn & Deeside,Plaid Cymru,Jack Morris,"1,886",7.3%,-1.7
+W09000007,Alyn & Deeside,Liberal Democrat,Christopher Twells,"1,584",6.1%,+1.6
+W09000007,Alyn & Deeside,UK Independence Party,Felix Aubel,898,3.5%,-13.9
+W09000007,Alyn & Deeside,Reform UK,Richard Purviss,401,1.6%,+1.6
+W09000007,Alyn & Deeside,Freedom Alliance,Lien Davies,208,0.8%,+0.8
+W09000002,Arfon,Plaid Cymru,Sian Gwenllian,"13,760",63.3%,+8.5
+W09000002,Arfon,Labour,Iwan Wyn Jones,"5,108",23.5%,-10.5
+W09000002,Arfon,Conservative,Tony Thomas,"1,806",8.3%,0.0
+W09000002,Arfon,Liberal Democrat,Calum Davies,642,3.0%,+0.1
+W09000002,Arfon,Reform UK,Andrew Haigh,350,1.6%,+1.6
+W09000002,Arfon,Independent,Martin Harry Bristow,82,0.4%,+0.4
+W09000038,Blaenau Gwent,Labour,Alun Davies,"10,226",49.1%,+9.4
+W09000038,Blaenau Gwent,Plaid Cymru,Peredur Owen Griffiths,"3,588",17.2%,-19.4
+W09000038,Blaenau Gwent,Conservative,Edward Dawson,"2,611",12.5%,+6.2
+W09000038,Blaenau Gwent,Independent,Mandy Moore,"2,376",11.4%,+11.4
+W09000038,Blaenau Gwent,Abolish the Welsh Assembly Party,Richard Taylor,"1,364",6.6%,+6.6
+W09000038,Blaenau Gwent,Liberal Democrat,Paula Yates,333,1.6%,+0.2
+W09000038,Blaenau Gwent,Reform UK,Robert Beavis,319,1.5%,+1.5
+W09000041,Brecon & Radnorshire,Conservative,James Evans,"12,741",39.7%,+14.3
+W09000041,Brecon & Radnorshire,Liberal Democrat,William Powell,"8,921",27.8%,-24.6
+W09000041,Brecon & Radnorshire,Labour,Gethin Jones,"4,980",15.5%,+6.6
+W09000041,Brecon & Radnorshire,Plaid Cymru,Grenville Ham,"2,075",6.5%,+2.6
+W09000041,Brecon & Radnorshire,Green,Emily Durrant,"1,556",4.8%,+2.5
+W09000041,Brecon & Radnorshire,Abolish the Welsh Assembly Party,Claire Mills,"1,209",3.8%,+3.8
+W09000041,Brecon & Radnorshire,Independent,Karen Laurie-Parry,345,1.1%,+1.1
+W09000041,Brecon & Radnorshire,Reform UK,John Muir,213,0.7%,+0.7
+W09000041,Brecon & Radnorshire,Gwlad,Sam Holwill,75,0.2%,+0.2
+W09000023,Bridgend,Labour,Sarah Murphy,"12,388",42.0%,-3.3
+W09000023,Bridgend,Conservative,Rachel Nugent-Finn,"8,324",28.3%,+3.9
+W09000023,Bridgend,Plaid Cymru,Leanne Lewis,"3,091",10.5%,+0.9
+W09000023,Bridgend,Independent,Steven James Bletsoe,"3,046",10.3%,+10.3
+W09000023,Bridgend,Independent,Caroline Yvonne Jones,"1,064",3.6%,+3.6
+W09000023,Bridgend,Liberal Democrat,Harvey Jones,782,2.7%,-1.3
+W09000023,Bridgend,Reform UK,Christine Ann Roach,534,1.8%,+1.8
+W09000023,Bridgend,Gwlad,Geraint David Jones,232,0.8%,+0.8
+W09000035,Caerphilly,Labour,Hefin David,"13,289",46.0%,+10.7
+W09000035,Caerphilly,Plaid Cymru,Delyth Jewell,"8,211",28.4%,-1.1
+W09000035,Caerphilly,Conservative,Steven Mayfield,"5,013",17.3%,+8.4
+W09000035,Caerphilly,Abolish the Welsh Assembly Party,Stephen Jones,"1,119",3.9%,+3.9
+W09000035,Caerphilly,Liberal Democrat,Steven Aicheler,787,2.7%,+1.3
+W09000035,Caerphilly,Reform UK,Tim Price,495,1.7%,+1.7
+W09000031,Cardiff Central,Labour,Jenny Rathbone,"13,100",45.9%,+7.5
+W09000031,Cardiff Central,Liberal Democrat,Rodney Berman,"5,460",19.1%,-16.2
+W09000031,Cardiff Central,Conservative,Calum Davies,"3,788",13.3%,+4.4
+W09000031,Cardiff Central,Plaid Cymru,Wiliam Rees,"3,470",12.2%,+4.7
+W09000031,Cardiff Central,Green,Ceri Davies,"1,552",5.4%,+1.0
+W09000031,Cardiff Central,Abolish the Welsh Assembly Party,Munawar Mughal,440,1.5%,+1.5
+W09000031,Cardiff Central,Propel,Dilan Nazari,268,0.9%,+0.9
+W09000031,Cardiff Central,Freedom Alliance,Thomas Joseph Franklin,156,0.5%,+0.5
+W09000031,Cardiff Central,Reform UK,Julian Bosley,151,0.5%,+0.5
+W09000031,Cardiff Central,Socialist Party of Great Britain,Brian Johnson,82,0.3%,+0.3
+W09000031,Cardiff Central,Gwlad,Alford Clement Thomas,65,0.2%,+0.2
+W09000042,Cardiff North,Labour,Julie Morgan,"19,348",47.6%,+2.8
+W09000042,Cardiff North,Conservative,Joel Williams,"12,755",31.4%,-3.6
+W09000042,Cardiff North,Plaid Cymru,Fflur Elin,"3,278",8.1%,+2.0
+W09000042,Cardiff North,Green,Debra Cooper,"1,957",4.8%,+2.6
+W09000042,Cardiff North,Liberal Democrat,Rhys Taylor,"1,641",4.0%,+1.0
+W09000042,Cardiff North,Abolish the Welsh Assembly Party,Lawrence Gwynn,990,2.4%,+2.4
+W09000042,Cardiff North,Propel,Akil Kata,336,0.8%,+0.8
+W09000042,Cardiff North,Reform UK,Haydn Matthew Rushworth,200,0.5%,+0.5
+W09000042,Cardiff North,Freedom Alliance,Virginia Catherine Kemp,150,0.4%,+0.4
+W09000043,Cardiff South & Penarth,Labour,Vaughan Gething,"18,153",49.9%,+6.1
+W09000043,Cardiff South & Penarth,Conservative,Leighton Rowlands,"7,547",20.7%,-0.3
+W09000043,Cardiff South & Penarth,Plaid Cymru,Nasir Adam,"4,957",13.6%,-0.7
+W09000043,Cardiff South & Penarth,Green,Helen Westhead,"1,643",4.5%,+0.3
+W09000043,Cardiff South & Penarth,Liberal Democrat,Alex Wilson,"1,402",3.9%,-0.5
+W09000043,Cardiff South & Penarth,Abolish the Welsh Assembly Party,Lisa Peregrine,732,2.0%,+2.0
+W09000043,Cardiff South & Penarth,UK Independence Party,Paul Campbell,576,1.6%,-10.7
+W09000043,Cardiff South & Penarth,Propel,Matt Friend,552,1.5%,+1.5
+W09000043,Cardiff South & Penarth,Reform UK,Alan Pick,295,0.8%,+0.8
+W09000043,Cardiff South & Penarth,Freedom Alliance,Alan Golding,273,0.8%,+0.8
+W09000043,Cardiff South & Penarth,Independent,David Rolfe,135,0.4%,+0.4
+W09000043,Cardiff South & Penarth,Gwlad,Angus Hawkins,121,0.3%,+0.3
+W09000029,Cardiff West,Labour,Mark Drakeford,"17,665",48.4%,+12.8
+W09000029,Cardiff West,Conservative,Sean Driscoll,"6,454",17.7%,+0.1
+W09000029,Cardiff West,Plaid Cymru,Rhys ab Owen,"5,897",16.1%,-15.8
+W09000029,Cardiff West,Propel,Neil McEvoy,"3,473",9.5%,+9.5
+W09000029,Cardiff West,Green,David Griffin,"1,287",3.5%,+0.3
+W09000029,Cardiff West,Liberal Democrat,Heath Marshall,803,2.2%,-0.5
+W09000029,Cardiff West,Abolish the Welsh Assembly Party,Lee Canning,682,1.9%,+1.9
+W09000029,Cardiff West,Reform UK,Nick Mullins,175,0.5%,+0.5
+W09000029,Cardiff West,Independent,Captain Beany,95,0.3%,+0.3
+W09000015,Carmarthen East & Dinefwr,Plaid Cymru,Adam Price,"15,261",45.9%,-2.6
+W09000015,Carmarthen East & Dinefwr,Labour,Rob James,"8,448",25.4%,+6.2
+W09000015,Carmarthen East & Dinefwr,Conservative,Havard Hughes,"7,751",23.3%,+8.2
+W09000015,Carmarthen East & Dinefwr,Liberal Democrat,Monica French,975,2.9%,+0.1
+W09000015,Carmarthen East & Dinefwr,Reform UK,Karl Pollard,818,2.5%,+2.5
+W09000016,Carmarthen West & Pembrokeshire South,Conservative,Samuel Kurtz,"11,240",35.5%,+0.1
+W09000016,Carmarthen West & Pembrokeshire South,Labour,Riaz Hassan,"10,304",32.6%,+8.7
+W09000016,Carmarthen West & Pembrokeshire South,Plaid Cymru,Cefin Campbell,"6,615",20.9%,+2.2
+W09000016,Carmarthen West & Pembrokeshire South,Liberal Democrat,Alistair Cameron,"1,224",3.9%,+1.5
+W09000016,Carmarthen West & Pembrokeshire South,UK Independence Party,Paul Dowson,982,3.1%,-8.2
+W09000016,Carmarthen West & Pembrokeshire South,Independent,Jon Harvey,866,2.7%,+2.7
+W09000016,Carmarthen West & Pembrokeshire South,Reform UK,Peter Prosser,424,1.3%,+1.3
+W09000012,Ceredigion,Plaid Cymru,Elin Jones,"16,946",55.1%,+14.4
+W09000012,Ceredigion,Conservative,Amanda Jenner,"4,801",15.6%,+8.6
+W09000012,Ceredigion,Labour,Dylan Lewis-Rowlands,"3,345",10.9%,+4.4
+W09000012,Ceredigion,Liberal Democrat,Cadan ap Tomos,"3,227",10.5%,-22.1
+W09000012,Ceredigion,Green,Harry Hayfield,"1,356",4.4%,+0.3
+W09000012,Ceredigion,Reform UK,Gethin James,775,2.5%,+2.5
+W09000012,Ceredigion,Freedom Alliance,Stephanie Evans,305,1.0%,+1.0
+W09000009,Clwyd South,Labour,Ken Skates,"10,448",43.2%,+7.7
+W09000009,Clwyd South,Conservative,Barbara Hughes,"7,535",31.1%,+9.2
+W09000009,Clwyd South,Plaid Cymru,Llyr Gruffydd,"4,094",16.9%,-0.5
+W09000009,Clwyd South,Liberal Democrat,Leena Farhat,730,3.0%,-7.3
+W09000009,Clwyd South,Abolish the Welsh Assembly Party,Jonathon Harrington,599,2.5%,+2.5
+W09000009,Clwyd South,UK Independence Party,Jeanette Bassford-Barton,522,2.2%,-10.6
+W09000009,Clwyd South,Reform UK,Mandy Jones,277,1.1%,+1.1
+W09000004,Clwyd West,Conservative,Darren Millar,"11,839",41.7%,+0.4
+W09000004,Clwyd West,Labour,Joshua Hurst,"8,154",28.7%,+8.7
+W09000004,Clwyd West,Plaid Cymru,Elin Walker Jones,"5,609",19.8%,-2.2
+W09000004,Clwyd West,Liberal Democrat,David Wilkins,"1,158",4.1%,+0.9
+W09000004,Clwyd West,UK Independence Party,Jeanie Barton,520,1.8%,-9.6
+W09000004,Clwyd West,Abolish the Welsh Assembly Party,Euan McGivern,502,1.8%,+1.8
+W09000004,Clwyd West,Reform UK,Clare Eno,304,1.1%,+1.1
+W09000004,Clwyd West,Gwlad,Rhydian Hughes,277,1.0%,+1.0
+W09000026,Cynon Valley,Labour,Vikki Howells,"11,427",55.7%,+4.6
+W09000026,Cynon Valley,Plaid Cymru,Geraint Benney,"3,959",19.3%,-0.6
+W09000026,Cynon Valley,Conservative,Mia Rees,"2,795",13.6%,+7.5
+W09000026,Cynon Valley,Propel,Vicky Jenkins,713,3.5%,+3.5
+W09000026,Cynon Valley,Abolish the Welsh Assembly Party,Martyn Ford,648,3.2%,+3.2
+W09000026,Cynon Valley,Reform UK,Peter Hopkins,356,1.7%,+1.7
+W09000026,Cynon Valley,Liberal Democrat,Gerald Francis,335,1.6%,-0.1
+W09000026,Cynon Valley,Independent,Gareth Bennett,278,1.4%,+1.4
+W09000006,Delyn,Labour,Hannah Blythyn,"12,846",48.6%,+7.7
+W09000006,Delyn,Conservative,Mark Isherwood,"9,135",34.5%,+9.0
+W09000006,Delyn,Plaid Cymru,Paul Rowlinson,"2,097",7.9%,-1.9
+W09000006,Delyn,Liberal Democrat,Andrew Parkhurst,"1,094",4.1%,-3.3
+W09000006,Delyn,UK Independence Party,Mary Davies,862,3.3%,-13.1
+W09000006,Delyn,Reform UK,Aiden Robert Down,297,1.1%,+1.1
+W09000006,Delyn,Gwlad,Anthony Williams,112,0.4%,+0.4
+W09000010,Dwyfor Meirionnydd,Plaid Cymru,Mabon ap Gwynfor,"11,490",48.2%,+0.9
+W09000010,Dwyfor Meirionnydd,Conservative,Charlie Evans,"4,394",18.5%,+2.9
+W09000010,Dwyfor Meirionnydd,Labour,Cian Ireland,"3,702",15.5%,+3.4
+W09000010,Dwyfor Meirionnydd,Propel,Peter Read,"1,314",5.5%,+5.5
+W09000010,Dwyfor Meirionnydd,Llais Gwynedd,Glyn Daniels,"1,136",4.8%,+4.8
+W09000010,Dwyfor Meirionnydd,Liberal Democrat,Stephen Churchman,916,3.8%,-0.7
+W09000010,Dwyfor Meirionnydd,Reform UK,Louise Hughes,710,3.0%,+3.0
+W09000010,Dwyfor Meirionnydd,Freedom Alliance,Michelle Murray,152,0.6%,+0.6
+W09000018,Gower,Labour,Rebecca Evans,"15,631",47.1%,+7.4
+W09000018,Gower,Conservative,Myles Langstone,"10,836",32.7%,-0.9
+W09000018,Gower,Plaid Cymru,John Davies,"3,946",11.9%,+2.0
+W09000018,Gower,Green,Anna Pigott,"1,088",3.3%,+0.9
+W09000018,Gower,Liberal Democrat,Mike Sheehan,869,2.6%,-0.8
+W09000018,Gower,Reform UK,Byron John,547,1.6%,+1.6
+W09000018,Gower,Gwlad,Wayne Erasmus,247,0.7%,+0.7
+W09000036,Islwyn,Labour,Rhianon Passmore,"9,962",40.7%,-4.3
+W09000036,Islwyn,Independent,Kevin Etheridge,"4,723",19.3%,+19.3
+W09000036,Islwyn,Plaid Cymru,Rhys Mills,"3,930",16.1%,-3.4
+W09000036,Islwyn,Conservative,Gavin Chambers,"3,894",15.9%,+7.9
+W09000036,Islwyn,Abolish the Welsh Assembly Party,Michael John Ford,568,2.3%,+2.3
+W09000036,Islwyn,UK Independence Party,Neil Hamilton,507,2.1%,-20.1
+W09000036,Islwyn,Liberal Democrat,Oliver Townsend,476,1.9%,-0.8
+W09000036,Islwyn,Reform UK,James Wells,421,1.7%,+1.7
+W09000017,Llanelli,Labour,Lee Waters,"13,930",46.1%,+9.6
+W09000017,Llanelli,Plaid Cymru,Helen Mary Jones,"8,255",27.3%,-7.9
+W09000017,Llanelli,Conservative,Stefan Ryszewski,"4,947",16.4%,+9.5
+W09000017,Llanelli,UK Independence Party,Howard Lillyman,722,2.4%,-12.3
+W09000017,Llanelli,Reform UK,Gareth Beer,672,2.2%,+2.2
+W09000017,Llanelli,Liberal Democrat,Jonathan Burree,606,2.0%,+0.7
+W09000017,Llanelli,Gwlad,SiÃ¢n Caiach,544,1.8%,+1.8
+W09000017,Llanelli,Independent,Shahana Najmi,542,1.8%,+1.8
+W09000044,Merthyr Tydfil & Rhymney,Labour,Dawn Bowden,"13,009",61.5%,+14.3
+W09000044,Merthyr Tydfil & Rhymney,Plaid Cymru,Ian Gwynne,"3,698",17.5%,-0.5
+W09000044,Merthyr Tydfil & Rhymney,Conservative,Donna Gavin,"2,665",12.6%,+6.2
+W09000044,Merthyr Tydfil & Rhymney,Abolish the Welsh Assembly Party,Hugh Moelwyn Hughes,656,3.1%,+3.1
+W09000044,Merthyr Tydfil & Rhymney,Liberal Democrat,Jez Becker,420,2.0%,-3.4
+W09000044,Merthyr Tydfil & Rhymney,UK Independence Party,George Alexandrov Pykov,382,1.8%,-18.9
+W09000044,Merthyr Tydfil & Rhymney,Reform UK,Colin David Jones,324,1.5%,+1.5
+W09000034,Monmouth,Conservative,Peter Fox,"15,332",42.7%,-0.6
+W09000034,Monmouth,Labour,Catrin Maby,"11,487",32.0%,+5.1
+W09000034,Monmouth,Plaid Cymru,Hugh Kocan,"2,085",5.8%,0.0
+W09000034,Monmouth,Green,Ian Roy Chandler,"2,000",5.6%,+2.7
+W09000034,Monmouth,Liberal Democrat,Jo Watkins,"1,892",5.3%,+0.6
+W09000034,Monmouth,Independent,Nick Ramsay,"1,293",3.6%,+3.6
+W09000034,Monmouth,Abolish the Welsh Assembly Party,Mark Reckless,"1,174",3.3%,+3.3
+W09000034,Monmouth,Reform UK,Susan Boucher,349,1.0%,+1.0
+W09000034,Monmouth,Freedom Alliance,Elspeth Agnes Pearl Hill,181,0.5%,+0.5
+W09000034,Monmouth,Gwlad,Laurence Williams,90,0.3%,+0.3
+W09000011,Montgomeryshire,Conservative,Russell George,"12,013",48.1%,+6.3
+W09000011,Montgomeryshire,Plaid Cymru,Elwyn Vaughan,"4,485",17.9%,+7.7
+W09000011,Montgomeryshire,Liberal Democrat,Alison Alexander,"4,207",16.8%,-10.9
+W09000011,Montgomeryshire,Labour,Kait Duerden,"3,576",14.3%,+8.4
+W09000011,Montgomeryshire,Reform UK,Oliver Lewis,549,2.2%,+2.2
+W09000011,Montgomeryshire,Gwlad,Gwyn Wigley Evans,157,0.6%,+0.6
+W09000021,Neath,Labour,Jeremy Miles,"11,666",42.3%,+5.0
+W09000021,Neath,Plaid Cymru,Sioned Williams,"6,445",23.4%,-2.4
+W09000021,Neath,Conservative,Mathew Williams,"4,107",14.9%,+6.3
+W09000021,Neath,Independent,Steve Hunt,"2,418",8.8%,+8.8
+W09000021,Neath,Green,Megan Poppy Lloyd,"1,038",3.8%,+1.5
+W09000021,Neath,Abolish the Welsh Assembly Party,Simon Anthony Rees,751,2.7%,+2.7
+W09000021,Neath,Propel,James Henton,443,1.6%,+1.6
+W09000021,Neath,Liberal Democrat,Iain Clamp,395,1.4%,-1.5
+W09000021,Neath,Reform UK,Sean Prior,315,1.1%,+1.1
+W09000040,Newport East,Labour,John Griffiths,"10,899",47.1%,+2.5
+W09000040,Newport East,Conservative,Gareth Rhys Hughes,"7,315",31.6%,+13.4
+W09000040,Newport East,Plaid Cymru,Daniel Llewelyn,"1,844",8.0%,+1.3
+W09000040,Newport East,Liberal Democrat,Mike Hamilton,"1,574",6.8%,-0.4
+W09000040,Newport East,Abolish the Welsh Assembly Party,Robert Steed,660,2.9%,+2.9
+W09000040,Newport East,UK Independence Party,Benjamin Walker,368,1.6%,-19.3
+W09000040,Newport East,Reform UK,David Rowlands,328,1.4%,+1.4
+W09000040,Newport East,Freedom Alliance,Sonya Cary,161,0.7%,+0.7
+W09000039,Newport West,Labour,Jayne Bryant,"14,259",48.2%,+4.4
+W09000039,Newport West,Conservative,Michael Enea,"10,353",35.0%,+6.0
+W09000039,Newport West,Plaid Cymru,Jonathan Clark,"2,076",7.0%,+1.1
+W09000039,Newport West,Green,Amelia Womack,"1,314",4.4%,+1.5
+W09000039,Newport West,Liberal Democrat,John Miller,882,3.0%,-0.2
+W09000039,Newport West,Reform UK,Kevin Anthony Boucher,486,1.6%,+1.6
+W09000039,Newport West,Freedom Alliance,Steve Walter Marsh,228,0.8%,+0.8
+W09000045,Ogmore,Labour,Huw Irranca-Davies,"12,868",52.5%,-2.7
+W09000045,Ogmore,Plaid Cymru,Luke Fletcher,"4,703",19.2%,+4.5
+W09000045,Ogmore,Conservative,Nathan Adams,"4,579",18.7%,+7.6
+W09000045,Ogmore,Abolish the Welsh Assembly Party,Robin James Hunter-Clarke,660,2.7%,+2.7
+W09000045,Ogmore,Propel,Tim Thomas,625,2.6%,+2.6
+W09000045,Ogmore,Reform UK,Glenda Davies,618,2.5%,+2.5
+W09000045,Ogmore,Liberal Democrat,Cameron Shippam,441,1.8%,-1.2
+W09000046,Pontypridd,Labour,Mick Antoniw,"11,511",41.8%,+2.4
+W09000046,Pontypridd,Plaid Cymru,Heledd Fychan,"6,183",22.4%,+4.0
+W09000046,Pontypridd,Conservative,Joel James,"5,658",20.5%,+5.2
+W09000046,Pontypridd,Independent,Wayne Owen,"1,678",6.1%,+6.1
+W09000046,Pontypridd,Abolish the Welsh Assembly Party,Michael Hughes,785,2.8%,+2.8
+W09000046,Pontypridd,Green,Ken Barker,655,2.4%,+0.4
+W09000046,Pontypridd,Liberal Democrat,Steven Rajam,628,2.3%,-9.5
+W09000046,Pontypridd,Reform UK,Jamie Jenkins,458,1.7%,+1.7
+W09000014,Preseli Pembrokeshire,Conservative,Paul Davies,"12,295",39.0%,-0.2
+W09000014,Preseli Pembrokeshire,Labour,Jackie Jones,"10,895",34.6%,+9.3
+W09000014,Preseli Pembrokeshire,Plaid Cymru,Cris Tomos,"6,135",19.5%,+5.6
+W09000014,Preseli Pembrokeshire,Reform UK,William Alan Dennison,"1,239",3.9%,+3.9
+W09000014,Preseli Pembrokeshire,Liberal Democrat,Tina Roberts,952,3.0%,-2.9
+W09000025,Rhondda,Labour,Elizabeth Buffy Williams,"12,832",54.7%,+18.8
+W09000025,Rhondda,Plaid Cymru,Leanne Wood,"7,335",31.3%,-19.3
+W09000025,Rhondda,Conservative,Tom Parkhill,"1,490",6.4%,+4.2
+W09000025,Rhondda,Propel,Jeff Gregory,525,2.2%,+2.2
+W09000025,Rhondda,Abolish the Welsh Assembly Party,Ian McLean,430,1.8%,+1.8
+W09000025,Rhondda,Reform UK,Steve Bayliss,355,1.5%,+1.5
+W09000025,Rhondda,Freedom Alliance,Steven Phillips,291,1.2%,+1.2
+W09000025,Rhondda,Liberal Democrat,Jackie Charlton,200,0.9%,+0.2
+W09000020,Swansea East,Labour,Mike Hedges,"12,950",60.1%,+8.0
+W09000020,Swansea East,Plaid Cymru,Rhiannon Barrar,"3,250",15.1%,+1.8
+W09000020,Swansea East,Conservative,Cameron Brennan,"2,947",13.7%,+5.3
+W09000020,Swansea East,Liberal Democrat,Sam Bennett,"1,055",4.9%,-2.7
+W09000020,Swansea East,UK Independence Party,Dan Morgan,567,2.6%,-13.3
+W09000020,Swansea East,Abolish the Welsh Assembly Party,Cameron Owen Edwards,484,2.2%,+2.2
+W09000020,Swansea East,Reform UK,Darren Rees,295,1.4%,+1.4
+W09000019,Swansea West,Labour,Julie James,"11,126",46.4%,+5.8
+W09000019,Swansea West,Conservative,Samantha Chohan,"4,605",19.2%,+1.5
+W09000019,Swansea West,Plaid Cymru,Dai Lloyd,"3,910",16.3%,+1.8
+W09000019,Swansea West,Liberal Democrat,Chloe Hutchinson,"1,645",6.9%,-2.2
+W09000019,Swansea West,Green,Chris Evans,"1,109",4.6%,+0.6
+W09000019,Swansea West,Abolish the Welsh Assembly Party,James Cole,866,3.6%,+3.6
+W09000019,Swansea West,Freedom Alliance,Michelle Karen Valerio,295,1.2%,+1.2
+W09000019,Swansea West,Reform UK,Bernard Holton,250,1.0%,+1.0
+W09000019,Swansea West,Propel,Katon Bouzalakos,189,0.8%,+0.8
+W09000037,Torfaen,Labour,Lynne Neagle,"11,572",48.3%,+6.1
+W09000037,Torfaen,Conservative,Gruff Parry,"6,251",26.1%,+9.0
+W09000037,Torfaen,Plaid Cymru,Lyn Ackerman,"2,564",10.7%,-1.7
+W09000037,Torfaen,Liberal Democrat,Veronica German,"1,180",4.9%,+2.2
+W09000037,Torfaen,UK Independence Party,Thomas George Harrison,895,3.7%,-18.9
+W09000037,Torfaen,Reform UK,Ian Michael Williams,730,3.0%,+3.0
+W09000037,Torfaen,Freedom Alliance,Mathew Francis Ross-Francome,522,2.2%,+2.2
+W09000037,Torfaen,Gwlad,Ryan Williams,239,1.0%,+1.0
+W09000005,Vale of Clwyd,Conservative,Gareth Davies,"10,792",41.4%,+5.0
+W09000005,Vale of Clwyd,Labour,Jason McLellan,"10,426",40.0%,+0.5
+W09000005,Vale of Clwyd,Plaid Cymru,Glenn Swingler,"2,972",11.4%,+2.7
+W09000005,Vale of Clwyd,Liberal Democrat,Lisa Jane,782,3.0%,-0.1
+W09000005,Vale of Clwyd,Reform UK,Peter Dain,552,2.1%,+2.1
+W09000005,Vale of Clwyd,Independent,David Thomas,529,2.0%,+2.0
+W09000047,Vale of Glamorgan,Labour,Jane Hutt,"18,667",43.5%,+4.7
+W09000047,Vale of Glamorgan,Conservative,Matt Smith,"15,397",35.9%,-0.8
+W09000047,Vale of Glamorgan,Plaid Cymru,Richard Grigg,"3,699",8.6%,-1.6
+W09000047,Vale of Glamorgan,Abolish the Welsh Assembly Party,Stuart Field,"1,394",3.3%,+3.3
+W09000047,Vale of Glamorgan,Green,Anthony Slaughter,"1,262",2.9%,+0.8
+W09000047,Vale of Glamorgan,Liberal Democrat,Sally Stephenson,994,2.3%,-0.2
+W09000047,Vale of Glamorgan,Propel,Janet Deborah Brocklehurst,426,1.0%,+1.0
+W09000047,Vale of Glamorgan,Reform UK,Michael Hancock,416,1.0%,+1.0
+W09000047,Vale of Glamorgan,Independent,Alan Terence Coulthard,237,0.6%,+0.6
+W09000047,Vale of Glamorgan,Freedom Alliance,Neill Vasudeo Shah,226,0.5%,+0.5
+W09000047,Vale of Glamorgan,Gwlad,Karl-James Langford,174,0.4%,+0.4
+W09000008,Wrexham,Labour,Lesley Griffiths,"8,452",37.4%,+0.3
+W09000008,Wrexham,Conservative,Jeremy Kent,"7,102",31.4%,+0.8
+W09000008,Wrexham,Plaid Cymru,Carrie Harper,"4,832",21.4%,+8.5
+W09000008,Wrexham,Abolish the Welsh Assembly Party,Paul Ashton,790,3.5%,+3.5
+W09000008,Wrexham,Liberal Democrat,Timothy Sly,755,3.3%,-2.3
+W09000008,Wrexham,UK Independence Party,Sebastian Ross,378,1.7%,-10.1
+W09000008,Wrexham,Reform UK,Charles William Henry Dodman,187,0.8%,+0.8
+W09000008,Wrexham,Gwlad,Aaron Norton,110,0.5%,+0.5
+W09000001,Ynys Mon,Plaid Cymru,Rhun ap Iorwerth,"15,506",55.9%,+1.1
+W09000001,Ynys Mon,Conservative,Lyn Hudson,"5,689",20.5%,+9.0
+W09000001,Ynys Mon,Labour,Sam Egelstaff,"5,300",19.1%,+2.1
+W09000001,Ynys Mon,Reform UK,Emmett Jenner,692,2.5%,+2.5
+W09000001,Ynys Mon,Liberal Democrat,Christopher Jones,547,2.0%,+0.7

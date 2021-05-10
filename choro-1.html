@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <title>Maps and D3</title>
+    <style>
+        html,
+        body {
+            margin: 0px;
+            padding: 0px;
+
+            height: 100%;
+            width: 100%;
+
+            background-color: #eeeeee;
+
+            position: relative;
+
+            font-family: "Open Sans", sans-serif;
+            color: #555
+        }
+        #constituency_map, #regional_map {
+            width: 45vw;
+            float: left;
+        }
+        #info {
+            clear: both;
+            visibility: hidden;
+            padding: 30px;
+        }
+        #info.active {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <p>This is just a demo. You probably *never* want to misuse a gradient the way we do here for the electoral region results</p>
+    <div id='constituency_map'></div>
+    <div id='regional_map'></div>
+    <div id="info"><h1>This is <span id="con_name"></span></h1></div>
+    <script>
+
+        let party_details = {
+            'Labour': { name: 'Labour', colour: '#DC241f' },
+            'Conservative': { name: 'Conservative', colour: '#0087DC' },
+            'Green': { name: 'Green Party', colour: '#6AB023' },
+            'Liberal Democrat': { name: 'Liberal Democrat', colour: '#FDBB30' },
+            'Plaid Cymru': { name: 'Plaid Cymru', colour: '#008142' },
+        }
+
+        let width = d3.select('#constituency_map').node().clientWidth;
+        let height = 600;
+
+        let con_svg = d3.select('#constituency_map').append('svg').attr("width",width).attr('height', height);
+        let reg_svg = d3.select('#regional_map').append('svg').attr("width",width).attr('height', height);
+
+        let projection = d3.geoMercator();
+        let path = d3.geoPath().projection(projection);
+
+        let active = d3.select(null);
+
+        function reset(event, d) {
+            active.attr('fill', (d) => get_constituency_fill(d.properties.nawc18cd));
+            active = d3.select(null);
+
+            d3.select('#info')
+                .classed('active', false);
+        
+        }
+
+        function clicked(event, d) {
+            if(active.node() === this) {
+                reset(event, d);
+            } else {
+                active.attr('fill', (d) => get_constituency_fill(d.properties.nawc18cd))
+                active = d3.select(this);
+                active.attr('fill', 'red')
+                d3.select("#info")
+                        .classed("active", true);
+                if(d.properties.nawc18nm) {
+                    d3.select('#con_name').text(d.properties.nawc18nm);   
+                } else if(d.properties.nawer18nm) {
+                    d3.select('#con_name').text(d.properties.nawer18nm);
+                }
+            }
+        }
+
+        Promise.all([
+            d3.json('data/nawc-simplified_ccw.topojson'),
+            d3.json('data/nawer-simplified_ccw.topojson'),
+            d3.csv('data/constituency_results.csv'),
+            d3.csv('data/regional_results.csv')
+        ]).then(([con_boundaries, reg_boundaries, con_results, reg_results]) => {
+
+            let nawc = topojson.feature(con_boundaries, con_boundaries.objects.nawc);
+            con_results = d3.group(con_results, (d) => d.constituency_id);
+
+
+            reg_results = d3.group(reg_results, (d) => d.region_id);
+            reg_results.forEach((reg_res, reg_id) => {
+                let region_seats = [];
+                reg_res.forEach(rr => {
+                    for(let i = 0; i < rr.seats; i++) {
+                        region_seats.push(rr.party);
+                    }
+                });
+                let gradient = reg_svg.append("defs")
+                    .append("linearGradient")
+                    .attr("id", reg_id);
+
+                gradient.attr(`x0`, `0`);
+                gradient.attr(`y0`, `0`);
+                gradient.attr(`x1`, `1`);
+                gradient.attr(`y1`, `1`);
+
+                region_seats.forEach((rs, i) => {
+                    gradient.append("stop")
+                        .attr("offset", `${i*25}%`)
+                        .attr("stop-color", party_details[rs].colour)
+                        .attr("stop-opacity", 1);
+                    gradient.append("stop")
+                        .attr("offset", `${(i+1)*25}%`)
+                        .attr("stop-color", party_details[rs].colour)
+                        .attr("stop-opacity", 1);
+                });
+            });
+            
+            let get_constituency_fill = function(con_id) {
+                let constituency_result = con_results.get(con_id);
+                let winner = d3.greatest(constituency_result, a => +a.votes.replace(',', '') );
+                return party_details[winner.party].colour;
+            }
+
+            function reset(event, d) {
+                active.attr('fill', (d) => get_constituency_fill(d.properties.nawc18cd));
+                active = d3.select(null);
+
+                d3.select('#info')
+                    .classed('active', false);
+            
+            }
+
+            function clicked(event, d) {
+                if(active.node() === this) {
+                    reset(event, d);
+                } else {
+                    active.attr('fill', (d) => get_constituency_fill(d.properties.nawc18cd))
+                    active = d3.select(this);
+                    active.attr('fill', 'red')
+                    d3.select("#info")
+                            .classed("active", true);
+                    if(d.properties.nawc18nm) {
+                        d3.select('#con_name').text(d.properties.nawc18nm);   
+                    } else if(d.properties.nawer18nm) {
+                        d3.select('#con_name').text(d.properties.nawer18nm);
+                    }
+                                
+                }
+            }
+
+            projection.fitSize([width, height], nawc);
+            
+            con_svg.selectAll('path')
+                .data(nawc.features)
+                .join((enter) => {
+                    enter.append('path')
+                    .attr('d', path)
+                    .attr('fill', (d) => get_constituency_fill(d.properties.nawc18cd) )
+                    .attr('stroke', '#eee')
+                    .attr('stroke-width', '1px')
+                    .on('click', clicked);
+                });
+            
+            let nawer = topojson.feature(reg_boundaries, reg_boundaries.objects.nawer);
+
+            projection.fitSize([width, height], nawer);
+
+            reg_svg.selectAll('path')
+                .data(nawer.features)
+                .join((enter) => {
+                    enter.append('path')
+                    .attr('d', path)
+                    .attr('fill', (d) => `url(#${d.properties.nawer18cd})`)
+                    .attr('stroke', '#eee')
+                    .attr('stroke-width', '1px')
+                    .on('click', clicked);
+                });
+        });
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+region_id,region_name,party,seats,seats change,votes,share,share change
+W10000008,South Wales East,Conservative,2,1,"52,323",25.20%,8
+W10000008,South Wales East,Plaid Cymru,2,1,"30,530",14.70%,-0.6
+W10000008,South Wales East,Labour,0,0,"85,988",41.40%,3.1
+W10000008,South Wales East,Abolish the Welsh Assembly Party,0,0,"9,995",4.80%,0.7
+W10000008,South Wales East,Green,0,0,"9,950",4.80%,2.3
+W10000008,South Wales East,Liberal Democrat,0,0,"7,045",3.40%,-0.1
+W10000008,South Wales East,UK Independence Party,0,-2,"4,101",2.00%,-15.8
+W10000008,South Wales East,Reform UK,0,0,"2,756",1.30%,1.3
+W10000008,South Wales East,Gwlad,0,0,"1,841",0.90%,0.9
+W10000008,South Wales East,No More Lockdowns,0,0,"1,496",0.70%,0.7
+W10000008,South Wales East,Propel,0,0,924,0.40%,0.4
+W10000008,South Wales East,Communist Party of Britain,0,0,606,0.30%,0
+W10000008,South Wales East,Trade Unionists and Socialist Coalition,0,0,362,0.20%,-0.1
+W10000006,Mid and West Wales,Labour,2,0,"61,733",25.90%,6.5
+W10000006,Mid and West Wales,Plaid Cymru,1,0,"65,450",27.50%,1.2
+W10000006,Mid and West Wales,Liberal Democrat,1,1,"16,181",6.80%,-4.1
+W10000006,Mid and West Wales,Conservative,0,0,"63,827",26.80%,6.2
+W10000006,Mid and West Wales,Green,0,0,"10,545",4.40%,0.6
+W10000006,Mid and West Wales,Abolish the Welsh Assembly Party,0,0,"8,073",3.40%,-1.6
+W10000006,Mid and West Wales,UK Independence Party,0,-1,"3,731",1.60%,-10
+W10000006,Mid and West Wales,Reform UK,0,0,"2,582",1.10%,1.1
+W10000006,Mid and West Wales,Propel,0,0,"1,428",0.60%,0.6
+W10000006,Mid and West Wales,Welsh Christian Party,0,0,"1,366",0.60%,0.1
+W10000006,Mid and West Wales,Gwlad,0,0,"1,303",0.50%,0.5
+W10000006,Mid and West Wales,Freedom Alliance,0,0,"1,181",0.50%,0.5
+W10000006,Mid and West Wales,Communist Party of Britain,0,0,589,0.20%,0
+W10000006,Mid and West Wales,Trade Unionists and Socialist Coalition,0,0,257,0.10%,0.1
+W10000009,South Wales West,Conservative,2,1,"38,244",20.90%,5.9
+W10000009,South Wales West,Plaid Cymru,2,0,"33,753",18.50%,1.3
+W10000009,South Wales West,Labour,0,0,"78,318",42.90%,3.4
+W10000009,South Wales West,Green,0,0,"7,155",3.90%,1.3
+W10000009,South Wales West,Abolish the Welsh Assembly Party,0,0,"6,975",3.80%,-0.4
+W10000009,South Wales West,Liberal Democrat,0,0,"6,010",3.30%,-3.2
+W10000009,South Wales West,UK Independence Party,0,-1,"2,809",1.50%,-12.2
+W10000009,South Wales West,Independent,0,0,"2,747",1.50%,1.5
+W10000009,South Wales West,Reform UK,0,0,"1,774",1.00%,1
+W10000009,South Wales West,Propel,0,0,"1,506",0.80%,0.8
+W10000009,South Wales West,Gwlad,0,0,"1,306",0.70%,0.7
+W10000009,South Wales West,Freedom Alliance,0,0,"1,271",0.70%,0.7
+W10000009,South Wales West,Communist Party of Britain,0,0,483,0.30%,0
+W10000009,South Wales West,Trade Unionists and Socialist Coalition,0,0,345,0.20%,-0.2
+W10000007,South Wales Central,Conservative,2,0,"56,622",22.10%,3.8
+W10000007,South Wales Central,Plaid Cymru,2,1,"46,478",18.20%,-2.7
+W10000007,South Wales Central,Labour,0,0,"102,611",40.10%,6.2
+W10000007,South Wales Central,Green,0,0,"14,478",5.70%,2.3
+W10000007,South Wales Central,Liberal Democrat,0,0,"11,821",4.60%,-1.8
+W10000007,South Wales Central,Abolish the Welsh Assembly Party,0,0,"8,396",3.30%,-0.7
+W10000007,South Wales Central,Propel,0,0,"5,552",2.20%,2.2
+W10000007,South Wales Central,UK Independence Party,0,-1,"3,127",1.20%,-9.2
+W10000007,South Wales Central,Reform UK,0,0,"2,244",0.90%,0.9
+W10000007,South Wales Central,No More Lockdowns,0,0,"1,298",0.50%,0.5
+W10000007,South Wales Central,Gwlad,0,0,"1,098",0.40%,0.4
+W10000007,South Wales Central,Communist Party of Britain,0,0,602,0.20%,0
+W10000007,South Wales Central,Independent,0,0,580,0.20%,0.2
+W10000007,South Wales Central,Trade Unionists and Socialist Coalition,0,0,519,0.20%,-0.1
+W10000007,South Wales Central,Workers Party of Britain,0,0,411,0.20%,0.2
+W10000001,North Wales,Conservative,2,1,"67,544",29.90%,7.7
+W10000001,North Wales,Labour,1,1,"73,120",32.30%,4.2
+W10000001,North Wales,Plaid Cymru,1,0,"53,950",23.90%,0.6
+W10000001,North Wales,Abolish the Welsh Assembly Party,0,0,"7,960",3.50%,-1.1
+W10000001,North Wales,Liberal Democrat,0,0,"7,160",3.20%,-1.4
+W10000001,North Wales,Green,0,0,"6,586",2.90%,0.6
+W10000001,North Wales,UK Independence Party,0,-2,"3,573",1.60%,-10.9
+W10000001,North Wales,Reform UK,0,0,"2,374",1.00%,1
+W10000001,North Wales,Gwlad,0,0,"1,228",0.50%,0.5
+W10000001,North Wales,Freedom Alliance,0,0,"1,186",0.50%,0.5
+W10000001,North Wales,Communist Party of Britain,0,0,557,0.20%,-0.1
+W10000001,North Wales,Propel,0,0,415,0.20%,0.2
+W10000001,North Wales,Independent,0,0,382,0.20%,0.2
+W10000001,North Wales,Trade Unionists and Socialist Coalition,0,0,164,0.10%,0.1
